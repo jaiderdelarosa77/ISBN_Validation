@@ -1,5 +1,5 @@
 import pytest
-from validate_isbn import ValidateISBN  # Asegúrate de que el archivo con la clase ValidateISBN esté importado correctamente.
+from validate_isbn import ValidateISBN
 
 class TestValidateISBN:
     @pytest.fixture(autouse=True)
